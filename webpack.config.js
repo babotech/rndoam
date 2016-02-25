@@ -15,9 +15,9 @@ var config = {
     externals: {
         'immutable': immutableExternal
     },
-    entries: {
-        rndoam: 'src/rndoam.js',
-        withImmutable: 'src/withImmutable.js'
+    entry: {
+        rndoam: './src/rndoam.js',
+        withImmutable: './src/withImmutable.js'
     },
     module: {
         loaders: [
